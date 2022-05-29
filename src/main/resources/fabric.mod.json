@@ -3,25 +3,33 @@
   "id": "creepermultidrop",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Creeper Multidrop",
+  "description": "Allows one charged creeper to drop multiple heads.",
   "authors": [
-    "Me!"
+    "IMS212",
+    "devOS: Sanity Edition"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://devos.one/",
+    "sources": "https://github.com/devOS-Sanity-Edition/creeper-multidrop.git"
   },
 
   "license": "MIT",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/creepermultidrop/icon.png",
 
-  "environment": "*",
+  "environment": "server",
+  "entrypoints": {
+    "server": [
+      "community.devos.nautical.creepermultidrop.CreeperMultidropServer"
+    ]
+  },
   "mixins": [
     "creepermultidrop.mixins.json"
   ],
 
   "depends": {
+    "fabricloader": "*",
+    "minecraft": "*",
     "java": ">=17"
   }
 }
