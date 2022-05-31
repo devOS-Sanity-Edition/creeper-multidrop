@@ -20,7 +20,7 @@
   "environment": "server",
   "entrypoints": {
     "server": [
-      "community.devos.nautical.creepermultidrop.CreeperMultidropServer"
+      "one.devos.nautical.creepermultidrop.CreeperMultidropServer"
     ]
   },
   "mixins": [

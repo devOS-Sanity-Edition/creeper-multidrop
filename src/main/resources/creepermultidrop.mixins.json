@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "community.devos.nautical.creepermultidrop.mixins",
+  "package": "one.devos.nautical.creepermultidrop.mixins",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
   ],

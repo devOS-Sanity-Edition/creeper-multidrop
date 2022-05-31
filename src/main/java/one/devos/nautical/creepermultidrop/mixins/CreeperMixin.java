@@ -1,4 +1,4 @@
-package community.devos.nautical.creepermultidrop.mixins;
+package one.devos.nautical.creepermultidrop.mixins;
 
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;

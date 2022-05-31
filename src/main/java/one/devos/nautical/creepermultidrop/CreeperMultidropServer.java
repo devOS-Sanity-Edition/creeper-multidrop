@@ -1,4 +1,4 @@
-package community.devos.nautical.creepermultidrop;
+package one.devos.nautical.creepermultidrop;
 
 import net.fabricmc.api.DedicatedServerModInitializer;
 import net.fabricmc.loader.api.FabricLoader;
