@@ -17,10 +17,10 @@
   "license": "MIT",
   "icon": "assets/creepermultidrop/icon.png",
 
-  "environment": "server",
+  "environment": "*",
   "entrypoints": {
-    "server": [
-      "one.devos.nautical.creepermultidrop.CreeperMultidropServer"
+    "main": [
+      "one.devos.nautical.creepermultidrop.CreeperMultidrop"
     ]
   },
   "mixins": [
