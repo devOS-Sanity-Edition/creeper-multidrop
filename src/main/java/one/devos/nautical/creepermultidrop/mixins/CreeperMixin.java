@@ -22,7 +22,7 @@ public abstract class CreeperMixin extends Entity {
      */
     @Overwrite
     public boolean canDropMobsSkull() {
-        return this.isPowered();
+        return this.isPowered() || this.random.nextInt(10) == 1;
     }
     
     @Shadow
